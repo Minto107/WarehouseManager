@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainWindow.MainController">
+   <children>
+      <TableView fx:id="tableView" prefHeight="360.0" prefWidth="600.0" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Button fx:id="addBt" layoutX="14.0" layoutY="368.0" maxHeight="26.0" maxWidth="57.0" mnemonicParsing="false" onAction="#addDialog" prefHeight="26.0" prefWidth="57.0" text="Dodaj" AnchorPane.bottomAnchor="5.600000000000001" AnchorPane.leftAnchor="14.0" />
+      <Button fx:id="delBt" layoutX="92.0" layoutY="368.0" mnemonicParsing="false" onAction="#deleteDialog" prefHeight="26.0" prefWidth="57.0" text="Usuń" AnchorPane.bottomAnchor="5.600000000000023" AnchorPane.leftAnchor="92.0" />
+      <Button fx:id="abBt" layoutX="526.0" layoutY="368.0" mnemonicParsing="false" onAction="#aboutWindowOpen" prefHeight="26.0" prefWidth="92.0" text="O programie" AnchorPane.bottomAnchor="6.0" AnchorPane.rightAnchor="14.0" />
+      <Button fx:id="editBt" layoutX="170.0" layoutY="368.0" mnemonicParsing="false" onAction="#editDialog" prefHeight="26.0" prefWidth="57.0" text="Edytuj" AnchorPane.bottomAnchor="5.600000000000023" AnchorPane.leftAnchor="170.0" />
+      <Label fx:id="itemsCount" alignment="CENTER" layoutX="268.0" layoutY="373.0" prefHeight="18.0" prefWidth="208.0" text="Label">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
